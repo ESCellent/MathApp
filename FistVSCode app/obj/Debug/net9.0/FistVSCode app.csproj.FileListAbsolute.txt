@@ -1,0 +1,14 @@
+C:\MainProgBS\FistVSCode app\bin\Debug\net9.0\FistVSCode app.exe
+C:\MainProgBS\FistVSCode app\bin\Debug\net9.0\FistVSCode app.deps.json
+C:\MainProgBS\FistVSCode app\bin\Debug\net9.0\FistVSCode app.runtimeconfig.json
+C:\MainProgBS\FistVSCode app\bin\Debug\net9.0\FistVSCode app.dll
+C:\MainProgBS\FistVSCode app\bin\Debug\net9.0\FistVSCode app.pdb
+C:\MainProgBS\FistVSCode app\obj\Debug\net9.0\FistVSCode app.GeneratedMSBuildEditorConfig.editorconfig
+C:\MainProgBS\FistVSCode app\obj\Debug\net9.0\FistVSCode app.AssemblyInfoInputs.cache
+C:\MainProgBS\FistVSCode app\obj\Debug\net9.0\FistVSCode app.AssemblyInfo.cs
+C:\MainProgBS\FistVSCode app\obj\Debug\net9.0\FistVSCode app.csproj.CoreCompileInputs.cache
+C:\MainProgBS\FistVSCode app\obj\Debug\net9.0\FistVSCode app.dll
+C:\MainProgBS\FistVSCode app\obj\Debug\net9.0\refint\FistVSCode app.dll
+C:\MainProgBS\FistVSCode app\obj\Debug\net9.0\FistVSCode app.pdb
+C:\MainProgBS\FistVSCode app\obj\Debug\net9.0\FistVSCode app.genruntimeconfig.cache
+C:\MainProgBS\FistVSCode app\obj\Debug\net9.0\ref\FistVSCode app.dll
