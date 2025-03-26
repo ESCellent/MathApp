@@ -2,23 +2,36 @@
 
 namespace Math 
 {
-    class Program 
+    class Fibonacci 
     {
         static void Main(string[] args)
         {
-            var numbers = new List<float> {4.0f, 9.0f, 16.0f, 25.0f, 36.0f};
-            float[] results = new float[numbers.Count * 2];
-            for (int i = 0; i < numbers.Count; i++)
-            {
-                float number = numbers[i];
+            Console.Write("Insert N: ");
+            int N = int.Parse(Console.ReadLine());
+            List<int> FibonacciNumbers = GetFibonacciNumbers(N);
 
-                results[i * 2] = MathF.Sqrt(number);
-                results[i * 2 + 1] = MathF.Sin(number);
-            }
-            for (int i = 0; i < numbers.Count; i++)
+            Console.WriteLine("Here is the fibonacci till " + N + ":");
+            foreach(var num in FibonacciNumbers)
             {
-                Console.WriteLine($"Number: {numbers[i]}, Sqrt: {results[i * 2]}, Sin: {results[i * 2 + 1]}");
+                Console.Write(num + " ");
             }
+        }
+        static List<int> GetFibonacciNumbers(int N)
+        {
+            List<int> FibonacciNumbers = new List<int>();
+            int a = 0, b = 1;
+            if (a <= N) FibonacciNumbers.Add(a);
+            if (b <= N) FibonacciNumbers.Add(b);
+
+            while (true)
+            {
+                int next = a + b;
+                if (next > N) break;
+                FibonacciNumbers.Add(next);
+                a = b;
+                b = next;
+            }
+            return FibonacciNumbers;
         }
     }
 }
